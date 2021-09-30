@@ -1,12 +1,12 @@
 #include<stdio.h>  
  int main()    
 {    
-int num1=10, num2=20; 
+int n1=10, n2=20; 
 int temp;
 printf("Before swap a=%d b=%d",a,b);      
-temp=num1;   
-num1=num2;  
-num2=temp;   
+temp=n1;   
+n1=n2;  
+n2=temp;   
 printf("\nAfter swap a=%d b=%d",a,b);    
 return 0;  
 }   
