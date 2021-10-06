@@ -1,0 +1,29 @@
+#include <stdio.h>
+int fab(int a,int b);
+int fab(int a, int b){
+    int n,c=0,d=1,i,f;
+    scanf("%d",&n);
+    if(n==1){
+        printf("%d",c);
+    }
+    else if(n==2){
+        printf("%d %d",c,d);
+    }
+        else{
+                printf("%d %d",c,d);
+            for(i=1;i<=n-2;i++){
+                f=d+c;
+                printf(" %d",f);
+                c=d;
+                d=f;
+            }
+        }
+    
+}
+int main()
+{ 
+    int a,b;
+    printf("Enter no=");
+fab(a,b);
+}
+
